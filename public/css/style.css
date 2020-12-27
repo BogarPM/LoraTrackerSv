@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+:root{
+    --textcolor: #252c41;
+    --bgColor: #f4f5f9;
+    --secondaryColor: #dddfe6;
+    --mainColor: #f1404b;
+}
+
+html{
+    font-size: 62.5%;
+    min-width: 410px;
+}
+hr{
+    margin: 0 1rem;
+}
+header{
+    font-size: 2.4rem;
+    background-color: var(--secondaryColor);
+    color: var(--textcolor);
+    margin-bottom: 1rem;
+}
+body{
+    background-color:#f4f5f9;
+}
+
+header h1{
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    font-size: 3.0rem;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    margin-bottom: 1rem;
+}
+header li{
+    margin-right: 1rem;
+    margin-left: 0.2rem;
+}
+header a{
+    text-decoration: none;
+    padding: 1rem;
+    color: var(--textcolor);
+}
+header a:hover{
+    background-color: var(--bgColor);
+    color: var(--mainColor);
+}
+header a:active{
+    
+}
+
+
+#map{
+    width: 90%;
+    height: 45rem;
+    align-self: center;
+    background-color: #e3dede;
+    border: #282c37 solid 0.2rem;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+#data{
+    border: black 0.1rem solid;
+    width: 90%;
+    align-self: center;
+    margin-top: 1rem;
+}
+#data h2{
+    text-align: center;
+    font-size: 2.8rem;
+    margin: 0.5rem 0;
+}
+
+
