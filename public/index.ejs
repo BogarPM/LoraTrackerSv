@@ -28,13 +28,34 @@
         <section id="data">
             <h2>Análisis de datos</h2>
             <hr>
+            <div class="pathSelector">
+                <div>
+                    <label for="path">Seleccionar:</label>
+                    <select name="path" id="path">
+                        <option value="undef">Seleccionar</option>
+                    </select>
+                </div>
+                <button>Nuevo</button> 
+            </div>
+            <table>
+                <tr>
+                    <th>Frame</th>
+                    <th>Latitud</th>
+                    <th>Longitud</th>
+                    <th>Fecha</th>
+                </tr>
+                <tr>
+                    <td>asd</td>
+                    <td>asd2</td>
+                    <td>asd3</td>
+                    <td>asd4</td>
+                </tr>
+            </table>
             
-            <!--Here goes the table for the received positions-->
-
         </section>
     </main>
     
-
+    <script src="../node_modules/socket.io/client-dist/socket.io.js"></script>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src="./js/mapScript.js"></script>
 </body>

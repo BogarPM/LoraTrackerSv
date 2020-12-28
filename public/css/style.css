@@ -51,11 +51,6 @@ header a:hover{
     background-color: var(--bgColor);
     color: var(--mainColor);
 }
-header a:active{
-    
-}
-
-
 #map{
     width: 90%;
     height: 45rem;
@@ -63,7 +58,6 @@ header a:active{
     background-color: #e3dede;
     border: #282c37 solid 0.2rem;
 }
-
 main{
     width: 100%;
     display: flex;
@@ -71,17 +65,39 @@ main{
     align-content: center;
 
 }
-
 #data{
     border: black 0.1rem solid;
     width: 90%;
     align-self: center;
     margin-top: 1rem;
+    font-size: 2.4rem;
+}
+#data .pathSelector{
+    margin-top: 1rem;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-between;
 }
 #data h2{
     text-align: center;
     font-size: 2.8rem;
     margin: 0.5rem 0;
 }
-
-
+#data select{
+    font-size: 2.4rem;
+}
+#data button{
+    font-size: 2.4rem;
+    width: 20%;
+}
+#data table{
+    width: 100%;
+    margin-top: 1rem;
+    border: var(--textcolor) 0.1rem solid;
+}
+#data td, th{
+    text-align: center;
+    border-left: var(--textcolor) 0.1rem solid;
+    border-right: var(--textcolor) 0.1rem solid;
+    border-bottom: var(--textcolor) 0.1rem solid;
+}
