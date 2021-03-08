@@ -31,12 +31,15 @@ const server = net.createServer((c)=>{
         let dta = msg.toString('utf-8');
         if(dta!="\n"){
             console.log(dta);
+            /*
+            console.log(dta);
             let dat = dta.split(',');
             console.log(dat);
             let lat = dat[0].split(':');
             console.log(lat[1]/1000000);
             let lng = dat[1].split(':');
             console.log(lng[1]/1000000);
+            */
         }
         
     });
