@@ -44,19 +44,22 @@ const server = net.createServer((c)=>{
         
     });
 });
+
 ////////////////////////////////
 server.listen(3001,()=>{
     console.log('tcp socket server listenning on port 3001');
 });
+
 server.on('error', ()=>{
     console.log('Error');
 });
+
 app.listen(3000,()=>{
     console.log('Server listening on port 3000');
 });
 
 
+
 app.get('/',(req,res)=>{
     res.render('index');
 });
-
